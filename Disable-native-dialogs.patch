@@ -1,0 +1,15 @@
+Workaround for Flatpak
+Will be fixed upstreammore elegant  with a command.line option
+
+diff --git a/lib/main.cpp b/lib/main.cpp
+index 5e12ade3..58b294d0 100644
+--- a/lib/main.cpp
++++ b/lib/main.cpp
+@@ -118,6 +118,7 @@ int main(int argc, char *argv[])
+ 		is_gui_app = true;
+ 	}
+ 
++	QCoreApplication::setAttribute(Qt::AA_DontUseNativeDialogs, true);
+ #if (OPENSSL_VERSION_NUMBER >= 0x30000000L)
+ 	{
+ 		QString path;
