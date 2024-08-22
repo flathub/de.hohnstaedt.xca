@@ -31,3 +31,5 @@ modules:
         path: 0001-Extend-linux-app-images-by-128-and-256-bit-PNG.patch
       - type: patch
         path: 0001-metainfo.xml-Replace-io.github.chris2511.xca.patch
+      - type: patch
+        path: Disable-native-dialogs.patch
