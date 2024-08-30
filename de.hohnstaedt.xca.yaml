@@ -25,11 +25,7 @@ modules:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     sources:
       - type: archive
-        url: https://github.com/chris2511/xca/releases/download/RELEASE.2.6.0/xca-2.6.0.tar.gz
-        sha256: 55a39f22eabadcce4532ebfcf07f796372bdb0d323720db6b6e0deaf267b1709
-      - type: patch
-        path: 0001-Extend-linux-app-images-by-128-and-256-bit-PNG.patch
+        url: https://github.com/chris2511/xca/releases/download/RELEASE.2.7.0/xca-2.7.0.tar.gz
+        sha256: 15ff6fbe4c004ac2ad18885ab35ae6940364a8246d5fe8562a41312fe45ec15e
       - type: patch
         path: 0001-metainfo.xml-Replace-io.github.chris2511.xca.patch
-      - type: patch
-        path: Disable-native-dialogs.patch

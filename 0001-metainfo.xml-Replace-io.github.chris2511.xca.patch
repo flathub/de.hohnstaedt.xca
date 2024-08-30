@@ -25,7 +25,7 @@ index 46cf4f7c..b6253863 100644
      <launchable type="desktop-id">de.hohnstaedt.xca.desktop</launchable>
      <description>
          <p>
-@@ -29,8 +33,11 @@
+@@ -29,7 +33,9 @@
              <li>Adapt the columns to have your important information at a glance</li>
          </ul>
      </description>
@@ -34,10 +34,8 @@ index 46cf4f7c..b6253863 100644
 +        <name>Christian Hohnstädt</name>
 +    </developer>
      <releases>
-+        <release date="2024-02-06" version="2.6.0"></release>
-         <release date="2023-09-24" version="2.5.0"></release>
-         <release date="2021-05-07" version="2.4.0"></release>
-         <release date="2020-04-29" version="2.3.0"></release>
+         <release date="2024-08-27" version="2.7.0" />
+         <release date="2024-02-06" version="2.6.0" />
 -- 
 2.39.3 (Apple Git-146)
 
