@@ -27,3 +27,5 @@ modules:
       - type: archive
         url: https://github.com/chris2511/xca/releases/download/RELEASE.2.8.0/xca-2.8.0.tar.gz
         sha256: 87955987ad6e05ba3dcac826cd22f7d9cedf00e4a409a1931e94e5347e79a7d0
+      - type: patch
+        path: 0001-Close-602-Linux-Flatpak-default-template-TLS_server-.patch
