@@ -2,7 +2,6 @@ app-id: de.hohnstaedt.xca
 runtime: org.kde.Platform
 runtime-version: '6.9'
 sdk: org.kde.Sdk
-desktop-file: de.hohnstaedt.xca.desktop
 
 finish-args:
   # X11 + XShm access
